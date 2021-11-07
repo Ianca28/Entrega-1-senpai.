@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper,
+.portafalio {
+  width: 100%;
+  height: 150vh;
+  background-color: #191c32;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.brand {
+  margin-top: -7;
+}
+
+.brand span {
+  color:orangered;
+}
+
+.menu {
+list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.menu .active {
+  color:rgb(255, 68, 0);
+}
+
+.menu a:hover {
+  background-color: rgb(10, 238, 238);
+  color: #9394a1;
+  transition: ease-in .4s; 
+}
+
+.main {
+  margin: 0 auto;
+  width: 60vw;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+span {
+color:orangered;
+}
+
+ .download-cv {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px 20px;
+  background-color: rgb(10, 238, 238);
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba (102, 231, 200, .69) ;
+}
+
+.download-cv:hover {
+  background-color: orangered;
+  box-shadow: none;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  
+}
+
+.sobre-mi {
+  display: flex;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  background-color: rgb(136, 122, 122);
+}
+
+.sobre-mi img {
+  width: 30%;
+  height: 40%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  grid-column: 1/5;
+ 
+}
+
+.sobre-mi-info {
+  font-size: 1em;
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.sobre-mi h2 {
+  justify-content: center;
+  margin-right: 1em;
+  font-size: 3em;
+  color: #fff;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: rgb(10, 238, 238) ;
+  margin-top: 5px;
+  margin-bottom: 3em;
+}
+
+.sobre-mi p {
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+.proyectos {
+  background: rgb(87, 101, 126);
+  margin-right: 10px;
+  
+}
+
+.proyectos {
+  display: flex;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  background-color: #191c32;
+}
+
+.proyectos h2 {
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 3em;
+  color: #fff;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: rgb(10, 238, 238) ;
+  margin-top: 5px;
+  margin-bottom: 3em;
+}
+
+ .info-content p {
+  font-size: 1em;
+  grid-column: 5/10;
+  margin-top: 1em;
+  color: #fff;
+  margin-right: 1em;
+  margin-left: 1em;
+ }
+ .download-cv {
+   margin-top: 3em;
+   margin-left: 4em;
+  }
+
+.footer {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background: 100%;
+  background-color: rgb(87, 101, 126);
+}
+
+.footer h2 {
+font-size: 3em;
+color: #ffff;
+margin-bottom: 0.5em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer h4 {
+font-size: 2em;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/*Me fue imposible alinear y centrar los iconos de las redes, son funcionales pero no logre centrarlos*/
+.iconos-redes {
+display: flex;
+justify-content: space-evenly;
+}
+/* los iconos de las redes se rompen permanentemente, no se porque*/
+.iconos-redes a {
+  color: orangered;
+  text-decoration: none;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.iconos-redes i {
+  font-size: 3em;
+}
+
+ .contacto {
+font-size: 30px;
+color: #fff;
+}
+
+.contacto h6 {
+margin-top: 10px;
+margin-bottom: 50px;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
